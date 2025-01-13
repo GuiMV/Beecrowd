@@ -1,4 +1,4 @@
-''' BEE 1002 - Soma Simples '''
+''' BEE 1003 - Soma Simples '''
 
 print("SOMA =", int(input()) + int(input()))
 
