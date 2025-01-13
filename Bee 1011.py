@@ -1,6 +1,7 @@
-''' BEE 1010 - Cálculo Simples '''
+''' BEE 1011 - Esfera '''
 
-V = 4/3 * 3.14159 * float(input())**3
+R = float(input())**3
+V = 4/3 * 3.14159 * R
 print(f"VOLUME = {V:.3f}")
 
 # tempo: 0.000s
