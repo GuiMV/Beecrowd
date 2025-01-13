@@ -1,7 +1,6 @@
-''' BEE 1008 - Salário '''
+''' BEE 1007 - Diferença '''
 
-n = int(input())
-s = int(input()) * float(input())
-print(f"NUMBER = {n}\nSALARY = U$ {s:.2f}")
+d = (int(input()) * int(input())) - (int(input()) * int(input()))
+print("DIFERENCA =",d)
 
 # tempo: 0.000s
