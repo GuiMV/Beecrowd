@@ -1,10 +1,7 @@
 ''' BEE 1012 - Área '''
 
 A, B, C = map(float, input().split())
-print(f'''TRIANGULO: {(A * C)/2:.3f}
-CIRCULO: {3.14159 * (C**2):.3f}
-TRAPEZIO: {((A + B)*C)/2:.3f}
-QUADRADO: {B**2:.3f}
-RETANGULO: {A*B:.3f}''')
+a1, a2, a3, a4, a5 = (A * C)/2, 3.14159 * (C**2), ((A + B)*C)/2, B**2, A*B
+print(f'TRIANGULO: {a1:.3f}\nCIRCULO: {a2:.3f}\nTRAPEZIO: {a3:.3f}\nQUADRADO: {a4:.3f}\nRETANGULO: {a5:.3f}')
 
 # tempo: 0.000s
